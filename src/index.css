@@ -1,0 +1,204 @@
+/* Global */
+body {
+  margin: 0;
+}
+* {
+  font-family: Avenir, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+/* Chats Page */
+.update-card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.chats-page {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+}
+
+.nav-bar {
+  width: 100%;
+  height: 66px;
+  background-color: #002766;
+}
+
+.logo-tab {
+  position: absolute;
+  left: 22px;
+  top: 12px;
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+}
+.update-tab {
+  position: absolute;
+  right: 10%;
+  color: white;
+  cursor: pointer;
+  top: 22px;
+}
+.profile-close {
+  position: absolute;
+  border: 1px solid #096dd9;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #096dd9;
+  width: 20px;
+  height: 20px;
+  top: 10%;
+  right: 10%;
+}
+.logout-tab {
+  position: absolute;
+  right: 2%;
+  top: 18px;
+  display: flex;
+
+  width: 200px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  color: white;
+  cursor: pointer;
+}
+.image-upload {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.form {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+}
+.error {
+  width: 100%;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid red;
+  background-color: palevioletred;
+  color: white;
+}
+.image-upload button {
+  box-sizing: border-box;
+  border: 0;
+  cursor: pointer;
+  color: white;
+  margin: 0;
+  height: 30px;
+  border-radius: 10px;
+  background-color: #40a9ff;
+}
+.image-preview {
+  width: 100px;
+  height: 100px;
+  border-radius: 25px;
+  object-fit: cover;
+  border: 2px solid #40a9ff;
+}
+::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+
+/* Login Page */
+
+#login-page {
+  background-image: linear-gradient(#40a9ff, #096dd9);
+
+  width: 100vw;
+  height: 100vh;
+}
+
+#login-card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px 20px;
+  width: 420px;
+  text-align: center;
+  background-color: white;
+  border-radius: 22px;
+}
+
+.login {
+  outline: 0;
+  border: 0;
+  border: 1px solid #3b5998;
+  padding: 5px 10px;
+  color: #096dd9;
+  font-size: medium;
+  font-weight: 500;
+  margin: 10px 0;
+  height: 30px;
+  border-radius: 10px;
+  width: 80%;
+}
+.login-submit {
+  box-sizing: border-box;
+  border: 0;
+  cursor: pointer;
+  color: white;
+  margin: 0;
+  height: 40px;
+  background-color: #40a9ff;
+  width: 50%;
+}
+.button-register {
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  margin-left: 10px;
+  background-color: #3b5998;
+  color: white;
+}
+h4 {
+  margin: 5px;
+}
+
+.login-button {
+  cursor: pointer;
+  margin: 5px 0px;
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+  display: inline-block;
+}
+.facebook {
+  background-color: #3b5998;
+}
+
+.google {
+  background-color: #4285f4;
+  color: white;
+}
+
+#loading-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  background-color: rgb(255, 255, 255, 0.22);
+}
+
+#loading-icon {
+  font-size: 66px;
+  position: relative;
+}
+
+.alignCard {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
